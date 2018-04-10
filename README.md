@@ -20,13 +20,14 @@ The news highlight app simply extracts information from a [News API](https://new
 * Inside the manage.py module change the config_name parameter from 'production' to 'development' ie app = create_app('production') should be app = create_app('development')
 * $ ./start.sh
 
-# Support and Contacts
-
-In case You have any issues using this code please do no hesitate to get in touch with me through maanoatu17@gmail.com or leave a commit here on github.
-
 ## How to use it
 * must have internet connection
 * [Click Here](https://thenewshighlights.herokuapp.com/)
+
+
+# Support and Contacts
+
+In case You have any issues using this code please do no hesitate to get in touch with me through maanoatu17@gmail.com or leave a commit here on github.
 
 
 ## Known Bugs
