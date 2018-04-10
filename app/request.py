@@ -1,16 +1,22 @@
 import urllib.request,json
-from .models import news
-from .models import news
+from .models import Articles
+from .models import Source
 from app import app
 
-Articles = news.Articles
-Source = news.Source
+
+# Getting api key
+api_key = None
+# Getting the movie base url
+base_url = None
+source_url = None
 
 
 
-api_key = app.config['NEWS_API_KEY']
-base_url = app.config['NEWS_API_HEAD_URL']
-source_url = app.config['NEWS_API_SOURCE_URL']
+def configure_request(app):
+    global api_key,base_url,source_url
+    api_key = app.config['NEWS_API_KEY']
+    base_url = app.config['NEWS_API_HEAD_URL']
+    source_url = app.config['NEWS_API_SOURCE_URL']
     
 def get_head(category):
     '''
