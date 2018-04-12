@@ -31,7 +31,7 @@ No known bugs
 
 ## How to use it
 * must have internet connection
-* [Click Here](https://thenewshighlights.herokuapp.com/)
+* [Click Here](https://thenewshighlight.herokuapp.com/)
 
 
 # Support and Contacts
